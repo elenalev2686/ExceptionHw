@@ -1,4 +1,5 @@
 package ru.netology.exeption;
+
 import ru.netology.exeption.Product;
 
 public class ShopRepository {
@@ -40,8 +41,8 @@ public class ShopRepository {
     }
 
     private Product findById(int id) {
-        for(Product product : products) {
-            if(product.getId() == id) {
+        for (Product product : products) {
+            if (product.getId() == id) {
                 return product;
 
             }

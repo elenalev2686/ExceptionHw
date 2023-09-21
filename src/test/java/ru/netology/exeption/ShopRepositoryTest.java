@@ -19,6 +19,7 @@ public class ShopRepositoryTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void shouldNotRemove() {
         ShopRepository repo = new ShopRepository();

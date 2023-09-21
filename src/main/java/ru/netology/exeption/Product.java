@@ -1,4 +1,5 @@
 package ru.netology.exeption;
+
 import java.util.Objects;
 
 public class Product {
